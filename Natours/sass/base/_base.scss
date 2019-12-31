@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 *,
 *::after,
 *::before {
@@ -13,4 +15,14 @@ html {
 
 body {
     box-sizing: border-box;
+}
+
+*::selection {
+    background: $color-primary;
+    color: $color-white;
+}
+
+*::-moz-selection {
+    background: $color-primary;
+    color: $color-white;
 }
